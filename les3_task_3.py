@@ -8,7 +8,7 @@ my_list = [randint(-20, 20) for i in range(0, 6)]
 copy_list = my_list[:]
 
 result_list = my_list[:]
-result_list.sort()
+result_list.sort()  # как-то был не вкурсе про sorted()
 
 print(my_list)
 

@@ -23,4 +23,4 @@ new_max_num = max(my_dict, key=my_dict.get)
 new_value_max_num = my_dict.get(new_max_num)
 
 print(f'Число {max_num} встречается чаще всего ({value_max_num})' if new_value_max_num < value_max_num
-      else 'Такого числа нет')
+      else 'Такого числа нет')  # уже позже увидел условие по взятие любого первого элемента из одинаковых, оставил так
